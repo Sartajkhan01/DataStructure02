@@ -17,7 +17,7 @@ namespace OrderedLinkedList
 
             string[] words = text.Split(' ');
 
-            //Array.Sort(words);
+            Array.Sort(words);
 
             for (int i = 0; i < words.Length; i++)
             {
